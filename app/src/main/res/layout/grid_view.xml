@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.GridLayout
+    xmlns:grid_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid_view"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:scaleType="fitXY"
+            android:layout_height="40dp"
+            android:id="@+id/ivFilms"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="film name"
+            android:id="@+id/textFilmName"
+            android:layout_marginStart="0dp"
+            android:layout_below="@id/ivFilms"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.GridLayout>
+
+
